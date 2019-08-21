@@ -11,20 +11,20 @@
     "name": "Nitish Tiwari",
     "email": "kumarnitish1996@gmail.com",
     "phone": "(+91) - 9953411321",
-    "website": "http://advikeshan.github.io",
+    "website": "www.nitishtiwari.me",
     "location": {
-      "address": "Noida, India"
+      "address": "Ghaziabad, India"
     }
   },
   "education": [
     {
       "studyType": "B.Tech.",
       "startDate": "July 2015",
-      "endDate": "Jun 2019",
+      "endDate": "Jun 2018",
       "institution": "Raj Kumar Goel Institute Of Technology",
       "location": "Ghaziabad, India",
-      "area": "Computer Science and Engineering",
-      "gpa": "79.93*"
+      "area": "Computer Science & Engineering",
+      "gpa": "79.88*"
     }
   ],
   "work": [
@@ -35,16 +35,17 @@
       "startDate": "May 2018",
       "endDate": "July 2018",
       "highlights": [
-        "Worked on internal project of the company with DevOps team. ",
-        "I have worked on AWS, Docker, Django and written various Python scripts to automate the back-end tasks.",
-        "Technologies Used: Django, HTML/CSS, JavaScript, AWS, Scripting, Git, Docker, Ansible, and SQL."
+        "Built a Cloud Automation Portal which provision container services for PHP based projects with automated configuration and code pipeline from GitHub.",
+        "Frontend designed with Django, Backed with Ansible, Docker and Python scripting.",
+        "Written various python scripts i.e.- to check status of the docker container's status using docker engine API.",
+        "Technologies Used: Django, AWS, Git, Docker, Kubernetes, Ansible, Linux, JavaScript."
       ],
       "company": "To The New"
     },
     {
       "highlights": [
         "Learned about AWS (Amazon Web Services) and it's cloud services like - S3, EC2, IAM, VPC etc. ",
-        "Worked on in-house developed Learning Management System build on Moodle and deployed on AWS cloud."
+        "Worked on in-house developed Learning Management System build on Moodle and deployed on AWS cloud using EC2, ELB, and RDS."
       ],
       "position": "Project Trainee",
       "company": "CCTIL, RKGIT",
@@ -54,45 +55,49 @@
     },
     {
       "highlights": [
-        "As a campus ambassador, I have organised technical activities along with mentoring my juniors in Data structures and Python.",
+        "As a campus ambassador, I have helped in the technical activities in the chapter along with mentoring my juniors in Data structures and Python.",
         "My responsibilities was to publicize their services and events, spreading word of mouth about the organization, and Social media outreach, etc."
       ],
-      "company": "Geek for Geeks",
+      "company": "GeekforGeeks",
       "position": "Campus Ambassador",
       "startDate": "Aug 2017",
-      "endDate": "Apr 2018",
-      "location": "Remote"
+      "endDate": "Apr 2018"
     }
   ],
   "skills": [
     {
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "AWS",
-        "Linux (Ubuntu)",
-        null,
-        "Visual Studio"
-      ],
-      "name": "Platforms"
+        "C",
+        "Java",
+        "Python"
+      ]
     },
     {
       "keywords": [
-        "Ansible",
-        "Docker",
+        "Django",
+        "HTML",
+        "CSS"
+      ],
+      "name": "Web technologies"
+    },
+    {
+      "keywords": [
+        "Linux",
         "Git",
-        "Jenkins",
-        "Scripting"
+        "Docker",
+        "MySQL",
+        "AWS"
       ],
-      "name": "DevOps Tools"
+      "name": "Tools & platforms"
     },
     {
       "keywords": [
-        "Python",
-        "Nginx",
-        "SQL",
-        "Django"
+        "Data Structures",
+        "Scripting (Shell & Python)"
       ],
-      "name": "Others"
+      "name": "Others "
     }
   ],
   "projects": [
@@ -100,13 +105,13 @@
       "name": "Cloud Automation Portal",
       "keywords": [
         "Django",
+        "Docker",
+        "Ansible",
+        "Git",
         "HTML, CSS",
         "JavaScript",
-        "AWS",
-        "Ansible",
-        "Docker",
         "MySQL",
-        null
+        "Python"
       ],
       "description": "A web app build in Django backed with Docker & Ansible where a developer can fill the details of their PHP based project and specify server side configurations, after that our app can deploy their project in docker containers on a remote server using Ansible.",
       "url": "https://github.com/prasvats/s2p/tree/form"
